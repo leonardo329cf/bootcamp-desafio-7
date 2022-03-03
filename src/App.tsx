@@ -1,8 +1,13 @@
+import './assets/styles/custom.scss';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
+    <>
     <h1>Hello</h1>
+    <h2>Hello</h2>
+    </>
+
   );
 }
 
