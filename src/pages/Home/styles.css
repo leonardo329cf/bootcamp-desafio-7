@@ -71,7 +71,7 @@
   font-weight: 400;
 }
 
-@media (min-width: 578px) {
+@media (min-width: 576px) {
   .home-container {
     padding: 30px 20px 20px 20px;
   }

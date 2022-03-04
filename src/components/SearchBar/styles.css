@@ -1,0 +1,17 @@
+.search-bar {
+  height: 40px;
+  margin-bottom: 0px;
+}
+
+.search-bar button {
+  width: 77px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (min-width: 576px) {
+    .search-bar button {
+        width: 174px;
+      }
+      
+}
