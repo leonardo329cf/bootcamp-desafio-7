@@ -1,0 +1,38 @@
+.main-nav {
+    padding: 21px 20px 21px 20px;
+    min-height: 70px;
+    min-width: 320px;
+}
+
+.main-container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 979px;
+}
+
+.main-menu-collapse {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.main-menu {
+    display: flex;
+    font-size: 18px;
+    width: 200px;
+    justify-content: space-between;
+    padding-left: 0px;
+    padding-bottom: 11px;
+}
+
+.main-menu a.active {
+    font-weight: 700;
+}
+
+@media (min-width: 768px) {
+    .main-menu-collapse {
+        justify-content: flex-end;
+    }
+    .main-menu {
+        padding-bottom: 0px;
+    }
+}

@@ -1,14 +1,11 @@
 import './assets/styles/custom.scss';
 import './App.css';
+import Routes from 'Routes';
 
 const App = () => {
   return (
-    <>
-    <h1>Hello</h1>
-    <h2>Hello</h2>
-    </>
-
+    <Routes />
   );
-}
+};
 
 export default App;
