@@ -1,0 +1,47 @@
+.product-card-container {
+  display: flex;
+  border-radius: 10px;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px 20px;
+}
+
+.image-card img {
+  width: 220px;
+}
+
+.content-card {
+  padding-top: 10px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content-card h1 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.content-card h2 {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.button-card {
+  width: 100%;
+  padding-top: 40px;
+}
+
+.button-card a {
+
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  height: 40px;
+  font-size: 16px;
+}
+

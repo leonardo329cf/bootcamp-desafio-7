@@ -9,6 +9,10 @@
   padding-right: 10px;
 }
 
+.search-bar h2{
+  font-size: 16px;
+}
+
 @media (min-width: 576px) {
     .search-bar button {
         width: 174px;

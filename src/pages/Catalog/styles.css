@@ -17,12 +17,31 @@
   border-radius: 10px;
 }
 
+.products-container {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.row {
+  padding-top: 20px;
+  row-gap: 20px;
+}
+
+.product-column {
+  padding-right: 10px;
+  padding-left: 10px;
+  
+}
+
 @media (min-width: 576px) {
   .catalog-container {
     padding: 30px 20px 20px 20px;
   }
   .search-bar-container {
     padding: 40px 20px 40px 20px;
+  }
+  .row {
+    row-gap: 30px;
   }
 }
 
